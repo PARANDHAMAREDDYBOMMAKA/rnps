@@ -1,0 +1,19 @@
+{
+  "name": "rnp",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "api": "yarn workspace api dev",
+    "mobile": "yarn workspace mobile start",
+    "web": "yarn workspace mobile web",
+    "android": "yarn workspace mobile android",
+    "db:generate": "yarn workspace api db:generate",
+    "db:push": "yarn workspace api db:push",
+    "db:seed": "yarn workspace api db:seed",
+    "db:videos": "yarn workspace api db:videos",
+    "typecheck": "yarn workspace api typecheck && yarn workspace mobile typecheck"
+  }
+}

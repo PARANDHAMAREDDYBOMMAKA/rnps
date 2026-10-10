@@ -1,0 +1,14 @@
+node_modules/
+.expo/
+dist/
+web-build/
+drizzle/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+.idea/
+.vscode/
+apps/mobile/ios/
+apps/mobile/android/
